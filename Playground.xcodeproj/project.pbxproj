@@ -17,6 +17,8 @@
 		18D25EE52E265B6C0005E65C /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25EE42E265B6C0005E65C /* AnimationView.swift */; };
 		18D25EE72E2661080005E65C /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25EE62E2661080005E65C /* AnimationTiming.swift */; };
 		18D25EE92E266E160005E65C /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25EE82E266E160005E65C /* Transition.swift */; };
+		18D25EEB2E269FB00005E65C /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25EEA2E269FB00005E65C /* Navigation.swift */; };
+		18D25EED2E26A46C0005E65C /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D25EEC2E26A46C0005E65C /* Sheets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		18D25EE42E265B6C0005E65C /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		18D25EE62E2661080005E65C /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
 		18D25EE82E266E160005E65C /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		18D25EEA2E269FB00005E65C /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		18D25EEC2E26A46C0005E65C /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		184F0EDF2E24030D0061B8F8 = {
 			isa = PBXGroup;
 			children = (
+				18D25EEC2E26A46C0005E65C /* Sheets.swift */,
+				18D25EEA2E269FB00005E65C /* Navigation.swift */,
 				18D25EE82E266E160005E65C /* Transition.swift */,
 				18D25EE62E2661080005E65C /* AnimationTiming.swift */,
 				18D25EE42E265B6C0005E65C /* AnimationView.swift */,
@@ -163,8 +169,10 @@
 				18D25EE52E265B6C0005E65C /* AnimationView.swift in Sources */,
 				18D25EE32E2659D20005E65C /* Ternary.swift in Sources */,
 				18D25EE72E2661080005E65C /* AnimationTiming.swift in Sources */,
+				18D25EEB2E269FB00005E65C /* Navigation.swift in Sources */,
 				18D25EE92E266E160005E65C /* Transition.swift in Sources */,
 				184F0EEC2E24030D0061B8F8 /* PlaygroundApp.swift in Sources */,
+				18D25EED2E26A46C0005E65C /* Sheets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
